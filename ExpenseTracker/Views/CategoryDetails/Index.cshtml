@@ -1,0 +1,54 @@
+﻿
+@model IEnumerable<ExpenseTracker.Models.CategoryDetails>
+
+@{
+    ViewData["PageTitle"] = "Categories";
+    ViewData["PageActionText"] = "New Categories";
+    ViewData["PageActionURL"] = "/CategoryDetails/AddOrEdit";
+}
+
+
+
+
+
+<table class="table">
+    <thead class="thead">
+        <tr>
+            <th >
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExpenseLimet)
+            </th>
+            <th>
+               Actions
+            </th>
+            <th></th>
+        </tr>
+    </thead >
+    <tbody class="tdd">
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpenseLimet)
+            </td>
+            <td>
+                <a class="btn" id="Edit" asp-action="AddOrEdit" asp-route-id="@item.CategoryId">Edit</a>
+                    
+
+                        <form asp-action="Delete" asp-route-id="@item.CategoryId">
+                            <button style="fa fa-trash" type="submit" class="btn" id="Delete" onclick="return confirm('Are you sure to delete this record?')">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                    </form>
+                   
+                
+               
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

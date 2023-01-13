@@ -1,0 +1,230 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+h2 {
+    font-family: auto;
+    font-size: 35px;
+    font-style:initial;
+}
+h3 {
+    margin-top: 30px;
+    font-family: auto;
+    font-size: 35px;
+    font-style: initial;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;  
+  background-color: #fcfcfc;
+  color:black;
+}
+
+.e-bigger {
+    font-size: x-large;
+}
+
+
+.main-content {
+    margin-left: 290px
+}
+
+
+#Edit {
+    border: 2px solid;
+    border-color: black;
+    background-color: #00b33c;
+    color: black;
+    text-decoration: none;
+}
+#Delete {
+    border: 2px solid;
+    border-color: black;
+    background-color: #ff4d4d;
+    color: black;
+    text-decoration: none;
+}
+#Create {
+    margin-top: 30px;
+    height: 50px;
+    border: 2px solid;
+    text-align: center;
+    border-color: black;
+    background-color: #bfd9bf;
+    color: black;
+    text-decoration: none;
+    justify-content: right;
+}
+    #Create a:hover {
+        color: black;
+        background-color: #66ffb3;
+       
+    }
+#cr {
+    margin-top: 30px;
+    height: 50px;
+    border: 2px solid;
+    text-align: center;
+    border-color: black;
+    background-color: #bfd9bf;
+    color: black;
+    text-decoration: none;
+    justify-content: right;
+}
+
+
+#backbtn {
+    margin-top: 30px;
+    height: 50px;
+    border: 2px solid;
+    text-align: center;
+    border-color: black;
+    background-color: #4dd2ff;
+    color: black;
+    text-decoration: none;
+    justify-content: right;
+}
+
+.tdd {
+    font-style: initial;
+    font-size: 20px;
+}
+.thead {
+    margin-top: 30px;
+    font-family: auto;
+    font-size: 20px;
+    font-style: initial;
+}
+/*Widget */
+.widget {
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.sidebar {
+   margin: 20px;
+   padding: 0;
+   width: 290px;
+   background-color: white;
+   position: fixed;
+   height: 100%;
+   overflow: auto;
+}
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        border: 2px solid;
+        border-color: white;
+        text-decoration: none;
+        background: #F5DEB3;
+        text-align: center;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 4px;
+    }
+        .sidebar a:hover {
+            color: black;
+            background-color: #FFA07A;
+        }
+
+.con {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between box-shadow: 10px 10px 10px rgba(252,146,181);
+    box-shadow: -10px -10px violet;
+    box-shadow: 10px 10px rgba(252,146,181);
+   
+}
+.box-1 {
+    background-color: burlywood;
+    height: 100px;
+    width: 240px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    border-color: black;
+    border:2px solid;
+
+}
+.box{
+   
+    border:2px solid;
+    border-color: black;
+    height: 100px;
+    width:240px;
+    margin-top: 20px;
+    padding: 5px;
+    text-align:center;
+        
+}
+#ol {
+    border:2px;
+    border: solid;
+    border-color: red;
+    text-align: center;
+    
+}
+#us {
+    border: solid;
+    border-color: black;
+    text-align: center;
+}
+#cl {
+    border: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.all-h {
+    margin-top: 40px;
+    border: 2px solid;
+    border-color: black;
+    background-color: #F0E68C;
+    width: 500px;
+    text-align: center;
+    border-style: groove;
+    padding: 2px;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.category {
+    text-decoration: none;
+    border: 2px medium black;
+    background: rgb(183 189 158);
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 4px;
+    color: black;
+    display: block;
+  
+}
+#col {
+    color: black;
+}
+.category:hover{
+    color: rgb(230,11,11);
+    background-color: cadetblue;
+}
+
+.tabel {
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+    font-style: oblique;
+}

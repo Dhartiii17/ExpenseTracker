@@ -1,0 +1,96 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["isDashboard"] = true;
+}
+
+@*Summary Widgets*@
+
+
+ <div class="con">
+    <div class="box-1"  >
+                <h4>@ViewBag.TotalExpensesLimit</h4>
+                <h6 class="card-title">Total Expenses Limit</h6>
+    </div>
+    @if (ViewBag.TotalExpenses < ViewBag.TotalExpensesLimit)
+    {
+    <div class="box-1"  >
+               
+                    <h4>@ViewBag.TotalExpenses</h4>
+                    <h6 class="card-title">Used Expenses</h6>  
+    </div>
+    }
+    else
+    {
+    <div class="box-1" >
+                    <h4>
+                        @ViewBag.TOtalExpenses
+
+                        <i class="fas fa-exclamation-triangle"></i>
+
+                    </h4>
+                    <h6 class="card-title">Expenses Limit Over</h6>               
+    </div>   
+    }
+</div>
+
+@*CategoryList*@
+
+<section class="categories">
+    <div class="col d-flex justify-content-center">
+        <h1 class="all-h">List Of Categories</h1>
+    </div>
+    <div class="row">
+        @foreach (var item in ViewBag.Category)
+        {
+            <div class="col-sm-3">
+                <div class=" category">
+                    
+                        <a class="text-center" id="col" style="text-decoration:none " asp-action="ExpensesList" asp-route-id=" @item.CategoryId">@item.Name</a>
+                   
+                </div>
+
+            </div>
+        }
+    </div>
+
+</section>
+
+<section>
+    <div class="col d-flex justify-content-center">
+        <h1 class=" all-h">Expenses List</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget p-3">
+                <table class="table">
+                    <thead class="thead">
+                        <tr>
+                            <th>Category</th>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tdd">
+                        @foreach(var item in ViewBag.Expenses)
+                        {
+                            <tr>
+                                <td>@item.Category.Name</td>
+                                <td>@item.Title</td>
+                                <td>@item.Description</td>
+                                <td>@item.Amount</td>
+                                <td>@item.Date</td>
+                            </tr>
+                        }
+                    </tbody>
+                   
+                  
+                </table>
+            </div>
+        </div>
+    </div>
+
+</section>

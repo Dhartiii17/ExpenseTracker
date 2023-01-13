@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ExpenseTracker.Models.ExpensesDetails>
+
+@{
+    ViewData["PageTitle"] = "Expenses";
+    ViewData["PageActionText"] = "New Expenses";
+    ViewData["PageActionURL"] = "/ExpensesDetails/AddOrEdit";
+   
+
+
+}
+
+@*Expenses and Limiet of Expenses*@
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>Actions</th>
+            
+        </tr>
+    </thead>
+    <tbody class="tdd">
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td >
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                <a id="Edit" asp-action="AddOrEdit" asp-route-id="@item.ExpensesId" >Edit</a>
+                    <form asp-action="Delete" asp-route-id="@item.ExpensesId">
+                        <button style="fa fa-trash" type="submit" class="btn" id="Delete" onclick="return confirm('Are you sure to delete this record?')">
+                            <i class="fa fa-trash"></i>
+                        </button>
+                </form>
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,59 @@
+﻿@model ExpenseTracker.Models.ExpensesDetails
+
+@{
+    ViewData["PageTitle"] = Model.ExpensesId == 0 ? " Create New Expenses" : "Update Expenses";
+}
+
+
+
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="widget p-5">
+            <form asp-action="AddOrEdit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" name="ExpensesId" value="@Model.ExpensesId" />
+                <div class="mb-3">
+                    <label asp-for="Date" class="control-label"></label>
+                    <input asp-for="Date" class="form-control"  />
+                    <span asp-validation-for="Date" class="text-danger " ></span>
+                </div>
+            
+                <div class="mb-3 ">
+                    <label asp-for="CategoryId" class="control-label"></label>
+                    <select asp-for="CategoryId" class ="form-control " asp-items="ViewBag.CategoryId">
+                        <option selected>Select Category</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger fs-6"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Title" class="control-label"></label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Amount" class="control-label"></label>
+                    <input asp-for="Amount" class="form-control" />
+                    <span asp-validation-for="Amount" class="text-danger fs-6"></span>
+                </div>
+                
+                <div class="mb-3">
+                    <input type="submit" value="Create" id="cr"  class="btn btn-primary " />
+                   
+                    <a asp-action="Index" class="btn" id="backbtn">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
