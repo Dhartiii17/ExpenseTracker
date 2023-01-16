@@ -22,9 +22,17 @@ Steps for installation
 
 1.Create new .net mvc solution give it name as 'ExpenseTracker'
 2.install the prerequisites step 
-3.load the project step
-4.Go to appsettings.json file In this file change the server name as youre sql server management server name.
-5.use command update-database in your package manager
+3.Go to appsettings.json file In this file change the server name as youre sql server management server name.
+4.use command update-database in your package manager
+
+
+Some Screenshort of ExpenseTracke:--
+
+Dashboard:-
+
+
+
+
 
 
 
