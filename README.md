@@ -11,6 +11,9 @@ Prerequisites
 4.NUGet packages
 5.ASP.NET Core entity framework
 6.ASP.NET Core SQL Server
+7.ASP.NET Core Tools
+8.CodeGeneration.Design
+9.Syncfusion.EJ2.AspNet.Core
 
 
 
