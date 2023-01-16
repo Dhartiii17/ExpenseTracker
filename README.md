@@ -43,5 +43,7 @@ To Create New Category
 
 ![img4](https://user-images.githubusercontent.com/122635183/212606696-1ad70d17-7fe4-4949-9115-0795d0c11a0e.PNG)
 
+To Edit Category
 
+![image](https://user-images.githubusercontent.com/122635183/212606884-49258126-f539-458c-9c47-df08fc0647c9.png)
 
