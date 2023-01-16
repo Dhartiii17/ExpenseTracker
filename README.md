@@ -32,9 +32,9 @@ Dashboard:-
 
 ![Screenshot (110)](https://user-images.githubusercontent.com/122635183/212605215-8d0bc5d4-3ed4-4720-a9e4-4a0929df2e54.png)
 
-Clicking on Category To see
+Clicking on Category To see Alert icons :
 
-![img1](https://user-images.githubusercontent.com/122635183/212605879-8d9ea1db-ab49-4878-98ec-91079ed4e67a.PNG)
+
 
 
 
