@@ -34,7 +34,7 @@ Dashboard:-
 
 Clicking on Category To see Alert icons :
 
-
+![img2](https://user-images.githubusercontent.com/122635183/212606259-4b5e14d3-c5bd-43b8-b898-5d453477e6eb.PNG)
 
 
 
