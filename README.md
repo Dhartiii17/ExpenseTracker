@@ -47,3 +47,7 @@ To Edit Category
 
 ![image](https://user-images.githubusercontent.com/122635183/212606884-49258126-f539-458c-9c47-df08fc0647c9.png)
 
+For View Expenses 
+![img6](https://user-images.githubusercontent.com/122635183/212607066-4268a7bc-05ae-45d1-9ff5-74f26ed32258.PNG)
+
+
