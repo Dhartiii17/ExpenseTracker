@@ -47,11 +47,14 @@ To Edit Category
 
 ![image](https://user-images.githubusercontent.com/122635183/212606884-49258126-f539-458c-9c47-df08fc0647c9.png)
 
-For View Expenses 
+For View Expenses :
 ![img6](https://user-images.githubusercontent.com/122635183/212607066-4268a7bc-05ae-45d1-9ff5-74f26ed32258.PNG)
 
-For Create New Expenses
+For Create New Expenses :
 
 ![img7](https://user-images.githubusercontent.com/122635183/212607319-a99be5a2-f1e8-4abf-a362-6d68a5100f69.PNG)
 
+For Edit Expenses:
+
+![img8](https://user-images.githubusercontent.com/122635183/212607643-9a492e04-a18f-4d0c-b937-eaea9b50fce8.png)
 
