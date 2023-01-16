@@ -39,6 +39,9 @@ Clicking on Category To see Alert icons :
 To See Category:
 ![img3](https://user-images.githubusercontent.com/122635183/212606448-5305cd1a-53bf-43aa-9405-b69dc9b8bf51.PNG)
 
+To Create New Category
+
+![img4](https://user-images.githubusercontent.com/122635183/212606696-1ad70d17-7fe4-4949-9115-0795d0c11a0e.PNG)
 
 
 
