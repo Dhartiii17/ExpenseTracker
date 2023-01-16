@@ -32,7 +32,7 @@ Dashboard:-
 
 ![Screenshot (110)](https://user-images.githubusercontent.com/122635183/212605215-8d0bc5d4-3ed4-4720-a9e4-4a0929df2e54.png)
 
-Clicking on Category To see Alert icons :
+Clicking on Category To see Alert icons when Expenses Limit is Over :
 
 ![img2](https://user-images.githubusercontent.com/122635183/212606259-4b5e14d3-c5bd-43b8-b898-5d453477e6eb.PNG)
 
