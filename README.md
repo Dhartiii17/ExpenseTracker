@@ -58,3 +58,8 @@ For Edit Expenses:
 
 ![img8](https://user-images.githubusercontent.com/122635183/212607643-9a492e04-a18f-4d0c-b937-eaea9b50fce8.png)
 
+For Delete Expenses:
+
+![img9](https://user-images.githubusercontent.com/122635183/212607970-47ae5e0a-a0ea-4d26-9afa-141adac3dc2c.PNG)
+
+
