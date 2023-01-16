@@ -50,4 +50,8 @@ To Edit Category
 For View Expenses 
 ![img6](https://user-images.githubusercontent.com/122635183/212607066-4268a7bc-05ae-45d1-9ff5-74f26ed32258.PNG)
 
+For Create New Expenses
+
+![img7](https://user-images.githubusercontent.com/122635183/212607319-a99be5a2-f1e8-4abf-a362-6d68a5100f69.PNG)
+
 
